@@ -1,7 +1,7 @@
 # DiInSo
 ![alt text](https://i.ibb.co/Gn0B5jQ/d-IInso-logo.png)
 
-Program 'Direct-Inverse Solver' (DiInSo) is orient to solve 3D direct and 2D/3D inverse problems of electrotomography on direct current.
+Program 'Direct-Inverse Solver' (DiInSo) is orient to solve 3D direct and 2D/3D inverse problems of electrical tomography on direct current.
 X86 version of DiInSo is totally free and can be use in scientific purposes, but it also has not any guarantees, so use DiInSo at your own risk.
 
 -------------------------
