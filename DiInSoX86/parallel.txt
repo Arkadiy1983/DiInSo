@@ -1,0 +1,6 @@
+1.0e-8 1.0e-6 1.0e+8 100000
+
+
+// 
+                        Parallel OpenMP CG-solver convergence conditions:
+                        absolute residual, relative residual, divergence, max number of iterations

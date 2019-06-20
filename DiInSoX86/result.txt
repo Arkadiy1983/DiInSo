@@ -1,0 +1,3 @@
+0
+
+// Is it necessary output vector-result in text file format (result<No. of experiment>.sol)? 1 - YES, 0 - NO.

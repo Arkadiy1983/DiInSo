@@ -1,0 +1,5 @@
+0
+M:\WinSolver\Release\examples\simple_test.vol
+// FIRST STRING: Is it necessary output result in TECPLOT file format (res(Ex,Ey,Ez)<No. of experiment>.plt)? 1 - YES, 0 - NO.
+// SECOND STRING: Input file with mesh.
+// www.tecplot.com
