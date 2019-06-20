@@ -1,0 +1,2 @@
+x 1 10 2
+10.0 30.0 H:\DiInSoX86\massive.txt 2

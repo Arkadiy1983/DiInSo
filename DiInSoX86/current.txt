@@ -1,0 +1,13 @@
+2
+-1.0
+1.0
+
+DATA FORMAT:
+<number of currents in array (usually 2 for AMNB array even if A or B current electrode placed on "infinity")>
+<current (A)>
+<current (A)>
+<current (A)>
+...
+<current (A)>
+
+P.S.: If given only one value, it will be apply to all current electrodes the same

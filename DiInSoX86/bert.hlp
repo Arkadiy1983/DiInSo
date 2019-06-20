@@ -1,0 +1,76 @@
+#####################################################################
+#    2D INVERSION ###################################################
+##################### --- Mesh options  ---
+size of cells      ## size (in electrode spacings) of cells at the surface
+mesh growing       ## defines how fast the mesh is growing (33-fast,35-slow)
+model depth        ## sets model depth, otherwise this is determined automatically
+boundary size      ## size of boundary area around parameter domain (in %)
+max cell size      ## maximum cell size in m^2
+#                  ##--------------------------------------------------
+################## ## --- Inversion options ---
+recalc jacobian?   ## recalc jacobian in every inversion step
+gl reg strength    ## (global) regularisation strength
+optimise reg?      ## optimise regularisation by means of L-curve
+change of reg?     ## change of regularisation in each iteration by factor 
+robust data?       ## robust (L1) data reweighting
+enh contrasts?     ## enhance contrasts by robust (L1) methods
+vert constraints   ## vertical constraints (1=isotropic, 0.1-0.01=quite layered)
+lower res bound    ## lower resistivity bound (0=default)
+upper res bound    ## upper resistivity bound (0=deactivated)
+max num of iter    ## restricts maximum number of iterations
+topography         ## enable topography effect
+#                  ##--------------------------------------------------
+################## ## --- Error weighting options ---
+err lvl (%)        ## error level in percent
+volt err (V)       ## voltage error (in V)
+estim err          ## estimate error new even if one is in file
+#                  ##--------------------------------------------------
+################## ## --- Data filtering ---
+min geo fac        ## minimum geometric factor
+max geo fac        ## maximum geometric factor
+min app res        ## minimum apparent resistivity
+max app res        ## maximum apparent resistivity
+min app IP         ## minimum apparent induced polarization (IP)
+max app IP         ## maximum apparent induced polarization (IP)
+max err estim      ## maximum error estimate
+#####################--------------------------------------------------
+#####################################################################
+#    3D INVERSION ###################################################
+##################### --- Mesh options ---
+smooth?            ## makes a nicer surface
+quality            ## defines the quality of the surface mesh (34-good, 30-bad)
+max tri size       ## maximum triangle size (in m^2) of the surface mesh
+surface cells      ## defines how big (in meters) the cells are at the surface
+mesh grow          ## defines how fast the mesh is growing (1.1-slow,2-fast)
+model depth        ## sets model depth, otherwise this is determined automatically
+boundary (%)       ## size of boundary area around parameter domain (in %)
+max cell size      ## maximum cell size in m^3
+#                  ##--------------------------------------------------
+################## ## --- Inversion options ---
+recalc jacobian?   ## compute jacobian in every inversion step
+regular strength   ## regularisation strength
+optimise reg?      ## optimise regularisation by means of L-curve
+vert constraints   ## vertical constraints (1=isotropic, 0.1-0.01=quite layered)
+enh contrants?     ## enhance contrasts by robust (L1) methods (blocky model)
+lower res bound    ## lower resistivity bound (0=default)
+upper res bound    ## upper resistivity bound (0=deactivated)
+change of reg?     ## change of regularisation in each iteration by factor 
+max num of iter    ## restricts maximum number of iterations
+sensitivity values ## discards sensitivity values below threshold (e.g. 1e-5)
+available mem      ## available memory (in MB) for sensitivity
+topography         ## enable topography effect
+#                  ##--------------------------------------------------
+################## ## --- Error weighting options ---
+err lvl (%)        ## error level in percent
+volt err (V)       ## voltage error (in V)
+estim err          ## estimate error new even if one is in file
+#                  ##--------------------------------------------------
+################## ## --- Data filtering ---
+min geo fac        ## minimum geometric factor
+max geo fac        ## maximum geometric factor
+min app res        ## minimum apparent resistivity
+max app res        ## maximum apparent resistivity
+min app phase      ## minimum apparent phase
+max app phase      ## maximum apparent phase
+max err estim      ## maximum error estimate
+################## ##--------------------------------------------------

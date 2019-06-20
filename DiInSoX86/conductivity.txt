@@ -1,0 +1,16 @@
+5
+0.0
+0.1
+0.1
+0.1
+0.01
+
+
+// Conductivities (Sm/m) in such form:
+<number of conductivities>
+<NULL-conductivity (for environment number 0)> - DO NOT FORGET, THAT NUMERATION FROM 0
+<conductivity for 1 environment>
+<conductivity for 2 environment>
+...
+<conductivity for n environment>
+If model DO NOT has some environment numbers, you can enter ANY value in this positions, but you CAN'T ignore them!
