@@ -1,0 +1,14 @@
+0
+result.sol
+ 
+//
+FIRST STRING:
+0 or smaller - do not use initial estimate (zero-vector initial estimate);
+1 or bigger - use initial estimate vector from file;
+SECOND STRING:
+file of initial estimate vector with format:
+<number of element in vector (numbering from 0)> <value>
+<number of element in vector (numbering from 0)> <value>
+<number of element in vector (numbering from 0)> <value>
+.....
+<number of element in vector (numbering from 0)> <value>
