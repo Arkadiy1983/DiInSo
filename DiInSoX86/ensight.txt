@@ -1,0 +1,5 @@
+0
+M:\WinSolver\Release\examples\simple_test.vol
+// FIRST STRING: Is it necessary output result in ENSIGHT file format (res<No. of experiment>.dat, res<No. of experiment>.geo, res<No. of experiment>.res)? 1 - YES, 0 - NO.
+// SECOND STRING: Input file with mesh.
+// www.ansys.com/products/fluids/ansys-ensight

@@ -1,0 +1,10 @@
+1
+
+// Is it necessary output symmetrix matrix in text special CSR-like (Compact Sparse Row) format with one-dimensional arrays in files
+   (this format usually using for analysis):
+di.txt - diagonal elements;
+ggl.txt - data of non-zero low-triangle elements of matrix;
+igc.txt - igc[0] = 0, igc[i] = igc[i - 1] + (number of non-zero elements on the i-th row in the low-triangle), rows numbering from 0;
+jgc.txt - contains the column indexes in low-triangle of each non-zero element of low triangle, columns numbering from 0.
+1 - YES, 0 - NO.
+P.S. By default (and always) matrix output in binary format (matr.dat) and popular Matrix Market format (matr.mtx): http://networkrepository.com/mtx-matrix-market-format.html

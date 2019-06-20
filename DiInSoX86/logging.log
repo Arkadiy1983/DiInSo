@@ -1,0 +1,150 @@
+...LOAD createParaMesh.dll SUCCESS...
+...LOAD dlltetgen.dll SUCCESS...
+...LOAD dllmeshconvert.dll SUCCESS...
+...LOAD dllpolyConvert.dll SUCCESS...
+...LOAD dllcreateSecondaryMesh.dll SUCCESS...
+...LOAD dlldcedit.dll SUCCESS...
+...LOAD dlldcinv.dll SUCCESS...
+...LOAD dllclosesurface.dll SUCCESS...
+...LOAD dllcreatesurface.dll SUCCESS...
+...LOAD dlldcmod.dll SUCCESS...
+...LOAD dlldctriangle.dll SUCCESS...
+...LOAD dllpolyrefinevips.dll SUCCESS...
+...LOAD dllpreparemeshrefinement.dll SUCCESS...
+...LOAD dllparadepth.dll SUCCESS...
+...LOAD dllpolymerge.dll SUCCESS...
+...LOAD dllpolyrotate.dll SUCCESS...
+...LOAD dllpolyscale.dll SUCCESS...
+...LOAD dllpolytranslate.dll SUCCESS...
+DATAFILE=H:\DiInSoX86\examples\simple_test.bert
+DATAFILE H:\DiInSoX86\examples\simple_test.bert
+Writing tbxdata! 
+#PARAGEOMETRY=
+#REGIONFILE=
+#TOPODATA=
+DIMENSION=2
+DIMENSION 2
+#TOPOGRAPHY=
+#
+###################### Mesh options
+PARADX=0.25          # size (in electrode spacings) of cells at the surface
+PARADX 0.25
+PARA2DQUALITY=34   # defines how fast the mesh is growing (33-fast,35-slow)
+PARA2DQUALITY 34
+#PARADEPTH=100       # sets model depth, otherwise this is determined automatically
+#BOUNDARY=5      # size of boundary area around parameter domain (in %)
+#PARAMAXCELLSIZE=100 # maximum cell size in m^2
+#
+################## Inversion options
+RECALCJACOBIAN=1  # recalc jacobian in every inversion step
+RECALCJACOBIAN 1
+#LAMBDA=20        # (global) regularisation strength
+#LAMBDAOPT=1      # optimise regularisation by means of L-curve
+#LAMBDADECREASE=1 # change of regularisation in each iteration by factor
+#ROBUSTDATA=1     # robust (L1) data reweighting
+#BLOCKYMODEL=1    # enhance contrasts by robust (L1) methods
+#ZWEIGHT=0.1      # vertical constraints (1=isotropic, 0.1-0.01=quite layered)
+#LOWERBOUND=0     # lower resistivity bound (0=default)
+#UPPERBOUND=0     # upper resistivity bound (0=deactivated)
+#MAXITER=20       # restricts maximum number of iterations
+#
+################### Error weighting
+#INPUTERRLEVEL=3  # error level in percent
+#INPUTERRVOLTAGE=100e-6 # voltage error (in V)
+#OVERRIDEERROR=1  # estimate error new even if one is in file
+#
+################## data filtering
+KMIN=-9e99       # minimum geometric factor
+KMIN -9e99
+KMAX=9e99        # maximum geometric factor
+KMAX 9e99
+RMIN=0           # minimum apparent resistivity
+RMIN 0
+RMAX=9e99        # maximum apparent resistivity
+RMAX 9e99
+IPMIN=-9e99      # minimum apparent phase
+IPMIN -9e99
+IPMAX=9e99       # maximum apparent phase
+IPMAX 9e99
+ERRMAX=9e99      # maximum error estimate
+ERRMAX 9e99
+#
+################## plot options
+#cMin=1          # minimum color level
+#cMax=1000       # maximum color level
+
+DATAFILE=H:\DiInSoX86\examples\simple_test.bert
+DATAFILE H:\DiInSoX86\examples\simple_test.bert
+Writing tbxdata! 
+#PARAGEOMETRY=
+#REGIONFILE=
+#TOPODATA=
+DIMENSION=3
+DIMENSION 3
+#TOPOGRAPHY=
+#
+###################### Mesh options
+SURFACESMOOTH=1 # makes a nicer surface
+SURFACESMOOTH 1
+SURFACEQUALITY=30 # defines the quality of the surface mesh (34-good, 30-bad)
+SURFACEQUALITY 30
+#SURFACEMAXTRISIZE=0  # maximum triangle size (in m^2) of the surface mesh
+#PARADX=0.2 # defines how big (in meters) the cells are at the surface
+PARA3DQUALITY=2    # defines how fast the mesh is growing (1.1-slow,2-fast)
+PARA3DQUALITY 2
+#PARADEPTH=100       # sets model depth, otherwise this is determined automatically
+#BOUNDARY=5      # size of boundary area around parameter domain (in %)
+#PARAMAXCELLSIZE=0   # maximum cell size in m^3
+#
+################## Inversion options
+RECALCJACOBIAN=1  # compute jacobian in every inversion step
+RECALCJACOBIAN 1
+#LAMBDA=20        # regularisation strength
+#LAMBDAOPT=1      # optimise regularisation by means of L-curve
+#ZWEIGHT=0.1      # vertical constraints (1=isotropic, 0.1-0.01=quite layered)
+#BLOCKYMODEL=1    # enhance contrasts by robust (L1) methods (blocky model)
+#LOWERBOUND=0     # lower resistivity bound (0=default)
+#UPPERBOUND=0     # upper resistivity bound (0=deactivated)
+#LAMBDADECREASE=1 # change of regularisation in each iteration by factor
+#MAXITER=20       # restricts maximum number of iterations
+#SENSMATDROPTOL=0.0 # discards sensitivity values below threshold (e.g. 1e-5)
+#SENSMATMAXMEM=800  # available memory (in MB) for sensitivity
+#
+################### Error weighting
+#INPUTERRLEVEL=3  # error level in percent
+#INPUTERRVOLTAGE=100e-6 # voltage error (in V)
+#OVERRIDEERROR=1  # estimate error new even if one is in file
+#
+################## data filtering
+KMIN=-9e99       # minimum geometric factor
+KMIN -9e99
+KMAX=9e99        # maximum geometric factor
+KMAX 9e99
+RMIN=0           # minimum apparent resistivity
+RMIN 0
+RMAX=9e99        # maximum apparent resistivity
+RMAX 9e99
+IPMIN=-9e99      # minimum apparent phase
+IPMIN -9e99
+IPMAX=9e99       # maximum apparent phase
+IPMAX 9e99
+ERRMAX=9e99      # maximum error estimate
+ERRMAX 9e99
+#
+################## plot options
+#cMin=1          # minimum color level
+#cMax=1000       # maximum color level
+
+FILE DATA.TXT EXISTS!
+x 1 10 2D
+10.0 30.0 H:\DiInSoX86\massive.txt 2
+FILE ZADACHA.TXT EXISTS!
+my_simple_test
+FILE PREPROC.TXT EXISTS!
+H:\DiInSoX86\examples\simple_test.vol
+PROGRAM CURRENTLY USING 96157696 BYTES OF MEMORY...
+PROGRAM CURRENTLY USING 96071680 BYTES OF MEMORY...
+PROGRAM CURRENTLY USING 96423936 BYTES OF MEMORY...
+PROGRAM CURRENTLY USING 96284672 BYTES OF MEMORY...
+PROGRAM CURRENTLY USING 96321536 BYTES OF MEMORY...
+THANK YOU FOR CHOOSING MY PROGRAM! GOOD LUCK!
