@@ -1,3 +1,5 @@
 76
 
-// Number of zero Dirichlet boundary conditions (by default - 76)
+
+// The number of Dirichlet's zero boundary conditions (which we placed far away from current sources)
+   (by default - 76)

@@ -1,10 +1,13 @@
 1
 
-// Is it necessary output symmetrix matrix in text special CSR-like (Compact Sparse Row) format with one-dimensional arrays in files
-   (this format usually using for analysis):
+
+// Is it necessary output symmetric matrix in text special CSR-like (Compact Sparse Row) format with one-dimensional arrays in files
+   (this format usually used for analysis or solving in third party solvers):
 di.txt - diagonal elements;
-ggl.txt - data of non-zero low-triangle elements of matrix;
-igc.txt - igc[0] = 0, igc[i] = igc[i - 1] + (number of non-zero elements on the i-th row in the low-triangle), rows numbering from 0;
-jgc.txt - contains the column indexes in low-triangle of each non-zero element of low triangle, columns numbering from 0.
+ggl.txt - non-zero elements of the matrix below the main diagonal (in the so-called "lower triangle");
+igc.txt - igc[0] = 0, igc[i] = igc[i - 1] + (the number of non-zero elements in the i-th row of the lower triangle); the rows numbered from ZERO;
+jgc.txt - contains the indices of the columns in the lower triangle of each non-zero element of the lower triangle; the columns numbered from ZERO.
 1 - YES, 0 - NO.
-P.S. By default (and always) matrix output in binary format (matr.dat) and popular Matrix Market format (matr.mtx): http://networkrepository.com/mtx-matrix-market-format.html
+
+P.S. By default (and always), the matrix is output in two formats - binary (matr.dat file), which cannot be read by simple text editors (it is needed for the DiInSo program), and Matrix Market format (matr.mtx), which can be read by simple text editors. You can learn more about Matrix Market format, for example, here:
+http://networkrepository.com/mtx-matrix-market-format.html

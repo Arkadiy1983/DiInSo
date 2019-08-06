@@ -1,14 +1,17 @@
 0
 result.sol
- 
+
+
 //
-FIRST STRING:
-0 or smaller - do not use initial estimate (zero-vector initial estimate);
-1 or bigger - use initial estimate vector from file;
-SECOND STRING:
-file of initial estimate vector with format:
-<number of element in vector (numbering from 0)> <value>
-<number of element in vector (numbering from 0)> <value>
-<number of element in vector (numbering from 0)> <value>
-.....
-<number of element in vector (numbering from 0)> <value>
+FIRST LINE:
+0 or less - do not change initial approximation
+(use zero initial approximation);
+1 or more - change initial approximation from the file;
+SECOND LINE:
+initial approximation file.
+
+The initial approximation file in this case should have the format:
+<number of the vector element, starting with ZERO>	<vector element>
+<number of the vector element, starting with ZERO>	<vector element>
+...
+<number of the vector element, starting with ZERO>	<vector element>

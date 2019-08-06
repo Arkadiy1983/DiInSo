@@ -6,11 +6,12 @@
 0.01
 
 
-// Conductivities (Sm/m) in such form:
-<number of conductivities>
-<NULL-conductivity (for environment number 0)> - DO NOT FORGET, THAT NUMERATION FROM 0
-<conductivity for 1 environment>
-<conductivity for 2 environment>
+// The electrical conductivity is given as follows:
+<number of electrical conductivities>
+<NULL (for zero material (environment)) 0 electrical conductivity> - DO NOT FORGET that the numbering comes from ZERO
+<electrical conductivity of material (environment) 1>
+<electrical conductivity of material (environment) 2>
 ...
-<conductivity for n environment>
-If model DO NOT has some environment numbers, you can enter ANY value in this positions, but you CAN'T ignore them!
+<electrical conductivity of material (environment) n>
+
+IMPORTANT NOTE: If there are NO materials (environments) with specific numbers, you can set any value in these positions, but ignore these values NOT allowed!
