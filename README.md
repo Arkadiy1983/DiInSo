@@ -13,8 +13,7 @@ X86 version of DiInSo is totally free and can be use in scientific purposes, but
 NEVER use BLANKS in directories, filenames, paths and names of problems in program DiInSo.
 It is highly recommended to install DiInSo in root directory of any logical disk.
 If you have any error messages at program start, try to install 'Visual C++ Redistributable for Visual Studio 2015' from Microsoft internet site or from directory 'redist'.
-At that moment only RUSSIAN full documentation of DiInSo available, but interface and hints of program in ENGLISH.
-ENGLISH full documentation will be available later.
+At that moment only ENGLISH and RUSSIAN full documentation of DiInSo available, but interface and hints of program in ENGLISH only.
 DiInSo now in early pre-release beta-mode, so be ready to small, middle, big and even critical errors. If you help as testers, we will fix bugs together. ;)
 Be patient and thank you for understanding.
 
