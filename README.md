@@ -28,3 +28,14 @@ Be patient and thank you for understanding.
 Your DiInSo chief programmer, Arkadiy Marinenko.
 
 e-mail: marinenkoarkady@yandex.ru
+
+-------------------------
+
+UPDATES:
+
+6 August 2019:
+* Added ENGLISH full documentation
+(now ENGLISH help document opens by default in DiInSo program;
+ rename file "help_rus.pdf" to "help.pdf" in DiInSo main folder
+ if you want to open RUSSIAN help document by default);
+* Fixed some bugs and issues.
