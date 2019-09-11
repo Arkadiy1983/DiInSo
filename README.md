@@ -39,3 +39,24 @@ UPDATES:
  rename file "help_rus.pdf" to "help.pdf" in DiInSo main folder
  if you want to open RUSSIAN help document by default);
 * Fixed some bugs and issues.
+
+11 September 2019:
+* Fixed a BUG with not working mesh parameter "max cell size"
+ for 3D areas with topography effect.
+ Now please use parameter "max cell size" as main for building
+ nice mesh for 3D areas with topography effect. Parameter "mesh grow"
+ is inefficient for such areas due to tetrahedral mesh generator
+ limitations;
+* Added NEW FUNCTION: Now you can view mesh BEFORE solving inverse
+ problem. For doing this, press "geom+mesh" button. In the folder
+ with input bert-file will be create VTK-file with same name plus
+ word "MESH" at the end. View this file in any VTK-viewer program
+ for estimating mesh quality BEFORE solving inverse problem.
+* Now DiInSo project has mirrors on:
+ SoftOnic (English):
+ https://diinso.en.softonic.com/
+ GeoElectric Laboratory (Russian):
+ http://geoelectriclab.com/products/winsolver
+* DiInSo published in the official PAD repository in category
+ "Education::Science":
+ http://repository.appvisor.com/
