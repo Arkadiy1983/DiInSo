@@ -60,3 +60,9 @@ UPDATES:
 * DiInSo published in the official PAD repository in category
  "Education::Science":
  http://repository.appvisor.com/
+
+30 September 2019:
+* Fixed a BUG with not taken into account xyz-file with
+ topography if main input bert-file has not topography at all.
+ Now topography effect always enable if xyz-file selected
+ and appropriate checkbox "topo/line file:" activated.
