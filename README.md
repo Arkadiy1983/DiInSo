@@ -66,3 +66,8 @@ UPDATES:
  topography if main input bert-file has not topography at all.
  Now topography effect always enable if xyz-file selected
  and appropriate checkbox "topo/line file:" activated.
+
+03 October 2019:
+* Added "robust data?" option for 3D inversion;
+* Removed "available mem" option due to it's very low efficiency;
+* Added information about date of program compilation in main window.
