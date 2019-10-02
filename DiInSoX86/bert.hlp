@@ -57,7 +57,7 @@ upper res bound    ## upper resistivity bound (0=deactivated)
 change of reg?     ## change of regularisation in each iteration by factor 
 max num of iter    ## restricts maximum number of iterations
 sensitivity values ## discards sensitivity values below threshold (e.g. 1e-5)
-available mem      ## available memory (in MB) for sensitivity
+robust data?       ## robust (L1) data reweighting
 topography         ## enable topography effect
 #                  ##--------------------------------------------------
 ################## ## --- Error weighting options ---
