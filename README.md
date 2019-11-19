@@ -71,3 +71,8 @@ UPDATES:
 * Added "robust data?" option for 3D inversion;
 * Removed "available mem" option due to it's very low efficiency;
 * Added information about date of program compilation in main window.
+
+20 November 2019:
+* Added NEW FEATURE "Slicer":
+ Now you can get individual section (slice) from 3D model of VTU-file
+ (see updated documentation for details).
