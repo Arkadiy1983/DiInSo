@@ -76,3 +76,12 @@ UPDATES:
 * Added NEW FEATURE "Slicer":
  Now you can get individual section (slice) from 3D model of VTU-file
  (see updated documentation for details).
+
+18 December 2019:
+* Fixed a BUG with not working "geom+mesh" function in 2D case
+ if predefined "geometry file:" selected;
+* Fixed a BUG with incorrect conversion Res2DInv dat-file to
+ bert-file in some cases with atypically set of topography data;
+* Improved visualization of apparent resistivity - now you can
+ see real pseudo-depth data on the pictures, earlier depth
+ calculated as |R|/2, where |R| - array electrode spacing.
