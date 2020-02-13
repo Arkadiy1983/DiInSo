@@ -85,3 +85,13 @@ UPDATES:
 * Improved visualization of apparent resistivity - now you can
  see real pseudo-depth data on the pictures, earlier depth
  calculated as |R|/2, where |R| - array electrode spacing.
+
+13 February 2020:
+* Improved algorithm for Res2DInv to bert-files convertion
+ for files with topography;
+* Added bln-files output after 2D inversion for better
+ analysis of results in Surfer software
+ (see updated documentation for details);
+* Added some warning messages because not all users read
+ documentation carefully;
+* Fixed some bugs.
