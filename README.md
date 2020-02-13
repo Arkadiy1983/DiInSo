@@ -1,5 +1,5 @@
 # DiInSo
-![alt text](https://i.ibb.co/Gn0B5jQ/d-IInso-logo.png)
+![alt text](http://geoelectriclab.com/themes/radiantweb-travu/assets/images/winsolver/winsolver.png)
 
 'Direct-Inverse Solver' (DiInSo) is an electrical resistivity tomography (ERT) software which orient to solve 3D direct and 2D/3D inverse problems on direct current (DC).
 
