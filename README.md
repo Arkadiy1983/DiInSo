@@ -11,7 +11,7 @@ X86 version of DiInSo is totally free and can be use in scientific purposes, but
 
 -------------------------
 
-NEVER use BLANKS in directories, filenames, paths and names of problems in program DiInSo.
+NEVER use BLANKS and try to use only ENGLISH SYMBOLS in directories, filenames, paths and names of problems in program DiInSo.
 
 It is highly recommended to install DiInSo in root directory of any logical disk.
 
