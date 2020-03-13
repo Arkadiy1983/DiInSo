@@ -95,3 +95,13 @@ UPDATES:
 * Added some warning messages because not all users read
  documentation carefully;
 * Fixed some bugs.
+
+13 March 2020:
+* Added NEW FEATURE "estimation":
+ Now you can estimate the efficiency of designed
+ electrotomographic array system for detection of some
+ objects and/or slices (see updated documentation for details);
+* Matrix "portrait" button changed from text to image;
+* Now support Res2DInv to bert-files convertion for
+ files with topography not only in the special "Topography"
+ section, but also directly in electrodes coordinates.
