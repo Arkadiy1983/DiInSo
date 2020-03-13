@@ -1,0 +1,10 @@
+experiment1
+experiment2
+
+
+// FIRST STRING - name of the folder with results (name of problem) for the first experiment;
+// SECOND STRING - name of the folder with results (name of problem) for the second experiment;
+// P.S.: As an experiment, for example, there may be a problem where in the first case 
+         the search object is absent, and in the second case the search object is present.
+         After evaluating the estimation results, you can make a preliminary conclusion about
+         the effectiveness of an appropriate array for the search of an appropriate object.
