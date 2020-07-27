@@ -30,8 +30,11 @@ Your DiInSo chief programmer, Arkadiy Marinenko.
 e-mail: marinenkoarkady@yandex.ru
 
 Author's ID in different science databases:
+
 Russian Science Citation Index ID: 596488
+
 Web of Science ResearcherID: AAU-7664-2020
+
 Scopus AuthorID: 26431490500
 
 -------------------------
