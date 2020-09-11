@@ -113,3 +113,27 @@ UPDATES:
 * Now support Res2DInv to bert-files convertion for
  files with topography not only in the special "Topography"
  section, but also directly in electrodes coordinates.
+
+11 September 2020:
+* Added NEW FEATURE in "Electrodes array generator" -
+ "File with profiles". Now you can select file with electrodes
+ location, SO electrodes may be in any positions for direct
+ problems (see updated documentation for details);
+* Added NEW OPTION "circle?". Now you can solve 2D inverse
+ problems for closed systems of electrodes, for example
+ in a circle (see updated documentation for details);
+* Added NEW BUTTON "Cylinder Creator". Now you can create
+ poly-files with parallelepiped and cylinder objects for
+ solving 3D inverse problems on closed 3D areas
+ (see updated documentation for details);
+* Added NEW OPTION "refinement". This option help to create
+ correct meshes in situations when we have small steps
+ between electrodes or electrodes located in "difficult"
+ points, for example (0.43278, 5.92357, 9.07139)
+ (see updated documentation for details);
+* Added NEW EXAMPLES in directory "examples";
+* Option for smoothing boundaries (in 2D case) and
+  surface (in 3D case) now turns on in file spline.txt;
+* Fixed an OpenGL BUG with some new versions of AMD
+ Radeon drivers;
+* Fixed a lot of small bugs and one critical bug.
