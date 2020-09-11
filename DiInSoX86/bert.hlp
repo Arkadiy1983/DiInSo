@@ -6,6 +6,7 @@ mesh growing       ## defines how fast the mesh is growing (33-fast,35-slow)
 model depth        ## sets model depth, otherwise this is determined automatically
 boundary size      ## size of boundary area around parameter domain (in %)
 max cell size      ## maximum cell size in m^2
+refinement         ## refinement of primary mesh (in m/absolute)
 #                  ##--------------------------------------------------
 ################## ## --- Inversion options ---
 recalc jacobian?   ## recalc jacobian in every inversion step
@@ -13,6 +14,7 @@ gl reg strength    ## (global) regularisation strength
 optimise reg?      ## optimise regularisation by means of L-curve
 change of reg?     ## change of regularisation in each iteration by factor 
 robust data?       ## robust (L1) data reweighting
+circle?            ## closed geometry inversion
 enh contrasts?     ## enhance contrasts by robust (L1) methods
 vert constraints   ## vertical constraints (1=isotropic, 0.1-0.01=quite layered)
 lower res bound    ## lower resistivity bound (0=default)
@@ -37,7 +39,6 @@ max err estim      ## maximum error estimate
 #####################################################################
 #    3D INVERSION ###################################################
 ##################### --- Mesh options ---
-smooth?            ## makes a nicer surface
 quality            ## defines the quality of the surface mesh (34-good, 30-bad)
 max tri size       ## maximum triangle size (in m^2) of the surface mesh
 surface cells      ## defines how big (in meters) the cells are at the surface
@@ -45,6 +46,7 @@ mesh grow          ## defines how fast the mesh is growing (1.1-slow,2-fast)
 model depth        ## sets model depth, otherwise this is determined automatically
 boundary (%)       ## size of boundary area around parameter domain (in %)
 max cell size      ## maximum cell size in m^3
+refinement         ## refinement of primary mesh (in m/absolute)
 #                  ##--------------------------------------------------
 ################## ## --- Inversion options ---
 recalc jacobian?   ## compute jacobian in every inversion step

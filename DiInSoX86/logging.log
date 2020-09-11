@@ -16,6 +16,8 @@
 ...LOAD dllpolyrotate.dll SUCCESS...
 ...LOAD dllpolyscale.dll SUCCESS...
 ...LOAD dllpolytranslate.dll SUCCESS...
+...LOAD dllpolycreatecube.dll SUCCESS...
+...LOAD dlladdvip.dll SUCCESS...
 DATAFILE=H:\DiInSoX86\examples\simple_test.bert
 DATAFILE H:\DiInSoX86\examples\simple_test.bert
 Writing tbxdata! 
@@ -34,6 +36,7 @@ PARA2DQUALITY 34
 #PARADEPTH=100       # sets model depth, otherwise this is determined automatically
 #BOUNDARY=5      # size of boundary area around parameter domain (in %)
 #PARAMAXCELLSIZE=100 # maximum cell size in m^2
+#PRIMDX_R=0.001 # refinement of primary mesh (in m/absolute)
 #
 ################## Inversion options
 RECALCJACOBIAN=1  # recalc jacobian in every inversion step
@@ -42,6 +45,7 @@ RECALCJACOBIAN 1
 #LAMBDAOPT=1      # optimise regularisation by means of L-curve
 #LAMBDADECREASE=1 # change of regularisation in each iteration by factor
 #ROBUSTDATA=1     # robust (L1) data reweighting
+#CYLINDER=1     # closed geometry inversion
 #BLOCKYMODEL=1    # enhance contrasts by robust (L1) methods
 #ZWEIGHT=0.1      # vertical constraints (1=isotropic, 0.1-0.01=quite layered)
 #LOWERBOUND=0     # lower resistivity bound (0=default)
@@ -84,8 +88,6 @@ DIMENSION 3
 #TOPOGRAPHY=
 #
 ###################### Mesh options
-SURFACESMOOTH=1 # makes a nicer surface
-SURFACESMOOTH 1
 SURFACEQUALITY=30 # defines the quality of the surface mesh (34-good, 30-bad)
 SURFACEQUALITY 30
 #SURFACEMAXTRISIZE=0  # maximum triangle size (in m^2) of the surface mesh
@@ -95,6 +97,7 @@ PARA3DQUALITY 2
 #PARADEPTH=100       # sets model depth, otherwise this is determined automatically
 #BOUNDARY=5      # size of boundary area around parameter domain (in %)
 #PARAMAXCELLSIZE=0   # maximum cell size in m^3
+#PRIMDX=0.0         # refinement of primary mesh (in m/absolute)
 #
 ################## Inversion options
 RECALCJACOBIAN=1  # compute jacobian in every inversion step
@@ -108,7 +111,7 @@ RECALCJACOBIAN 1
 #LAMBDADECREASE=1 # change of regularisation in each iteration by factor
 #MAXITER=20       # restricts maximum number of iterations
 #SENSMATDROPTOL=0.0 # discards sensitivity values below threshold (e.g. 1e-5)
-#SENSMATMAXMEM=800  # available memory (in MB) for sensitivity
+#ROBUSTDATA=1     # robust (L1) data reweighting
 #
 ################### Error weighting
 #INPUTERRLEVEL=3  # error level in percent
@@ -142,5 +145,7 @@ FILE ZADACHA.TXT EXISTS!
 my_simple_test
 FILE PREPROC.TXT EXISTS!
 H:\DiInSoX86\examples\simple_test.vol
-PROGRAM CURRENTLY USING 54398976 BYTES OF MEMORY...
+PROGRAM CURRENTLY USING 92786688 BYTES OF MEMORY...
+PROGRAM CURRENTLY USING 95211520 BYTES OF MEMORY...
+PROGRAM CURRENTLY USING 95850496 BYTES OF MEMORY...
 THANK YOU FOR CHOOSING MY PROGRAM! GOOD LUCK!
