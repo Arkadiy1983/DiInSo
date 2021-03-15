@@ -133,7 +133,31 @@ UPDATES:
  (see updated documentation for details);
 * Added NEW EXAMPLES in directory "examples";
 * Option for smoothing boundaries (in 2D case) and
-  surface (in 3D case) now turns on in file spline.txt;
+ surface (in 3D case) now turns on in file spline.txt;
 * Fixed an OpenGL BUG with some new versions of AMD
  Radeon drivers;
 * Fixed a lot of small bugs and one critical bug.
+
+15 March 2021:
+* Added NEW BUTTON "Domain Creator". Now you can create
+ poly-files with domains for solving 3D inverse problems
+ of borehole electrical tomography (see updated documentation
+ for details);
+* Now after solving direct problems and push "bring together"
+ button you will get results also in additional formats
+ .x and .ohm (see updated documentation for details);
+* Fixed a bug in output in Ensight format;
+* Fixed a bug in "List of Res2DInv's to BERT 3D" converter;
+* Added "3doutput.txt" settings file for disabling output
+ in 3D-VTK and DAT-RAW formats after 3D inversion
+ (this files can be too large for some 3D problems);
+* Added warning message in console window if your input
+ mesh for solving direct problems contain
+ degenerate tetrahedron(s) (with null volume).
+ Direct problems can't be solve in this case and you MUST
+ restart a program.
+* Fixed GID.bas file for output meshes in GID mesh generator;
+* Added instruction to add optional points in areas for
+ GID mesh generator (see updated documentation for details);
+* Added NEW EXAMPLES in directory "examples";
+* Some other fixes of bugs.
