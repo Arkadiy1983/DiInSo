@@ -162,13 +162,11 @@ CIRCLE
 
 *if(nelem(tetrahedra))
 TETRAHEDRA
-*loop materials
 *nelem(tetrahedra)
 *set elems(tetrahedra)
 *loop elems
-*elemsnum *elemsmat *elemslayernum *matprop *elemsconec
+*elemsnum *elemsmat *elemslayernum *elemsmat *elemsconec
 *end elems
-*end materials
 *endif
 
 *if(nelem(hexahedra))

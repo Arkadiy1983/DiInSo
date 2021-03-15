@@ -1,0 +1,9 @@
+0
+
+
+//
+// Do we need to output 3D inversion results to point data files
+// (such files can take up a lot of disk space and require
+// a lot of RAM during the output process):
+// 3D-VTK and DAT-RAW.
+// 1 - need to output, 0 - DO_NOT_need to output.
