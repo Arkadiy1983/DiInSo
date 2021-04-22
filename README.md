@@ -161,3 +161,13 @@ UPDATES:
  GID mesh generator (see updated documentation for details);
 * Added NEW EXAMPLES in directory "examples";
 * Some other fixes of bugs.
+
+22 April 2021:
+* Added Res2DInv to BERT 2D conversion for electrotomographic
+ array number 7 in Res2DInv numbering (Wenner-Schlumberger);
+* Added possibility to add new array positions to the existing
+ array positions in file elec_profiles.txt (see updated
+ documentation for details);
+* Added XERIS output data (xeris_profiles.txt) for XERIS
+ software (https://nemfis.ru/stuff/xeris/XerisEng.html);
+* Fixed some bugs.
