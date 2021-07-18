@@ -171,3 +171,20 @@ UPDATES:
 * Added XERIS output data (xeris_profiles.txt) for XERIS
  software (https://nemfis.ru/stuff/xeris/XerisEng.html);
 * Fixed some bugs.
+
+18 July 2021:
+* Added NEW convertion options:
+ List of BERT 2D files to BERT 2D;
+ List of BERT 3D files to BERT 3D;
+ List of BERT 2D files to BERT 3D.
+ So now you can combine multiple field measurements into one;
+* Added NEW extraction option:
+ Extract elec_profiles.txt from BERT file.
+ So now you can completely repeat field experiment positions of
+ the electrotomography array(s) in a direct problem;
+* Improve "Electrodes array generator" for more accurate
+ adding new array positions to the existing array positions;
+* Added "Simple mode" in "Domain Creator". In this mode you
+ can completely manual set the coordinates of the domain for
+ solving inverse problem;
+* Fixed some small bugs.
