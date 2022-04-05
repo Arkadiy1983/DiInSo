@@ -2,7 +2,8 @@
 #    2D INVERSION ###################################################
 ##################### --- Mesh options  ---
 size of cells      ## size (in electrode spacings) of cells at the surface
-mesh growing       ## defines how fast the mesh is growing (33-fast,35-slow)
+mesh growing       ## defines how fast the mesh is growing
+                   ## (33 - fast, 39 (without "max cell size") or 35 (with "max cell size") - slow)
 model depth        ## sets model depth, otherwise this is determined automatically
 boundary size      ## size of boundary area around parameter domain (in %)
 max cell size      ## maximum cell size in m^2

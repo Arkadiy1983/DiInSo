@@ -1,0 +1,14 @@
+10000
+140.0
+
+// ------------
+// First number:
+// ------------
+// the maximum number of additional nodes in the mesh when creating a mesh with the given parameters
+// (allows to exclude an infinite loop when generating a mesh with the given parameters)
+// -------------
+// Second number:
+// -------------
+// maximum angle of triangles in the mesh
+// (along with the main mesh parameter "mesh growing", allows you to create a mesh
+// with triangles of a more "correct" shape)
