@@ -188,3 +188,34 @@ UPDATES:
  can completely manual set the coordinates of the domain for
  solving inverse problem;
 * Fixed some small bugs.
+
+25 March 2022:
+* Updated triangular mesh generation algorithm for 2D inversion problem;
+ The goal of the update was to eliminate situations where the process of
+ building a triangular mesh entered into an infinite loop due to
+ the impossibility of building a mesh with certain parameters.
+ The new algorithm contains additional settings in the triangulation.txt
+ file, where sets the maximum number of additional nodes in mesh and
+ the maximum angle of triangles in mesh. The "mesh growing" parameter
+ now has more dainty settings (see hints - "hint" button). All this
+ together makes it possible to obtain a more adequate mesh for
+ 2D inversion and (hopefully) eliminate cases of impossibility of
+ meshing with certain parameters.
+* When selecting a geometry file ("geometry file"), the "max cell size"
+ parameter is now ALWAYS extract from this file;
+* In "Electrodes array generator" the Pole-Dipole array is now divided
+ into two types - "Pole-Dipole Forward" and "Pole-Dipole Reverse" with
+ forward and reverse movement, respectively, since passing the Pole-Dipole
+ array in only one direction often gives unsatisfactory results on one of
+ boundary of the research area;
+* Fixed a bug in the "Electrodes array generator", when the program
+ did not allow to build 1 profile if the Y step (which is not need)
+ was not set;
+* Fixed a bug in solving the inversion problem, when the exit from
+ inversion algorithm could occur several iterations earlier or later
+ due to incorrect calculation of the beginning of stagnation process;
+* A ZondRes2D to BERT 2D converter was add, but only the basic ZondRes2D
+ file format is support, so check the conversion results
+ (see an example of the ZondRes2D file in the examples folder -
+ "examples", file - "zond2d_exm.z2d");
+* Fixed some other minor bugs.
