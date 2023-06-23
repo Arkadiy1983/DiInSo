@@ -219,3 +219,18 @@ UPDATES:
  (see an example of the ZondRes2D file in the examples folder -
  "examples", file - "zond2d_exm.z2d");
 * Fixed some other minor bugs.
+
+23 June 2023:
+* Added the ability to solve monitoring problems (time inversion)
+ (see updated documentation for details);
+* Now in 2D inversion files with coordinates <X> <Z>
+ you can include a set of points that define only topography
+ (by analogy with such a possibility in the Res2DInv and ZondRes2D programs).
+ Read the documentation for details and example "test_topo.bert" 
+ in the examples folder - "examples".
+* Added the output of sensitivity files with binding to the nodes 
+ of the modeling area for their further processing in the programs 
+ Surfer and Voxler;
+* Fixed a bug when working with data that uses a very small step 
+ between the electrodes (laboratory studies in baths);
+* Fixed some other minor bugs.
