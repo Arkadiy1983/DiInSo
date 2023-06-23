@@ -1,0 +1,7 @@
+0
+
+
+// 0 - basic time inversion, where the zero step is used as the reference model;
+// 1 - modified time inversion that additionally corrects the discrepancy at t0: dn = {pn/p0}f(m0)
+// LABRECQUE D. J. and YANG X., 2001: Difference Inversion of ERT Data: 
+// A Fast Inversion Method for 3-D in Situ Monitoring. – Journal of Environmental and Engineering Geophysics, 6, 83
