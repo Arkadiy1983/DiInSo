@@ -223,7 +223,7 @@ UPDATES:
 23 June 2023:
 * Added the ability to solve monitoring problems (time inversion)
  (see updated documentation for details);
-* Now in 2D inversion files with coordinates <X> <Z>
+* Now in 2D inversion files with coordinates "X" "Z"
  you can include a set of points that define only topography
  (by analogy with such a possibility in the Res2DInv and ZondRes2D programs).
  Read the documentation for details and example "test_topo.bert" 
